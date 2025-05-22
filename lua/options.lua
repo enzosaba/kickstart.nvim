@@ -121,6 +121,7 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 vim.keymap.set('n', '-', '<cmd>Oil --float<CR>', { desc = 'Open Parent Directory in Oil' })
 
+vim.keymap.set('n', '3', 'ya"', { desc = 'copia stringa mi serve per dm338' })
 -- for the terminal
 vim.keymap.set('n', '<leader>t', '<cmd>terminal<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('t', '<C-n>', [[<C-\><C-n>]], { noremap = true, desc = 'Exit terminal mode' })
